@@ -124,7 +124,7 @@ GET /api/v1/posts/?limit=5&offset=0 - пагинация на 5 постов, н
 
 Клонировать репозиторий и перейти в него в командной строке:
 ```
-git clone https://github.com/32Aleksey32/api_final_yatube.git
+git clone git@github.com:EvKutyashov/api_final_yatube.git
 ```
 
 Cоздать и активировать виртуальное окружение:
