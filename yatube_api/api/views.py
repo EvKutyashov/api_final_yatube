@@ -56,7 +56,7 @@ class CommentViewSet(viewsets.ModelViewSet):
 class FollowViewSet(CreateListViewSet):
     serializer_class = FollowSerializer
     filter_backends = (filters.SearchFilter, filters.OrderingFilter)
-    search_fields = ('following__username',)
+    search_fields = ('following__username', 'user__username')
     ordering_fields = ('following',)
 
     def get_queryset(self):
